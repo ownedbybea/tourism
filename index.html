@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Navbar</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="navbar-toggle" onclick="toggleNavbar()">☰</button>
+
+        <div class="logo-container">
+            <img src="img/logo2.jpg" alt="Logo" class="logo-image">
+            <div class="logo-text">EchoScapes Mountain Province</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    
+    </nav>
+
+  <!-- Side Bar -->
+  <div class="layout">
+    <!-- Side Bar -->
+    <div class="sidebar">
+        <div class="image-container">
+            <img src="img/Mountain Province Map.png" alt="Map Placeholder" />
+        </div>
+<hr>
+        <h3 class="fs-5 fw-bold text-dark">Quick facts</h3>
+        <p class="fw-light text-dark" style="font-size: 0.8rem;">
+            Mountain Province is a landlocked province of the Philippines in the Cordillera Administrative Region in Luzon.
+            Its capital is Bontoc while Bauko is the largest municipality. Mountain Province was formerly referred to as Mountain in some foreign references.
+            The name is usually shortened by locals to Mt. Province.
+        </p>
+        <a href="http://tourism.mountainprovince.gov.ph">References</a>
+        
+    </div>
+
+     <!-- Main Content -->
+     <main class="col-md-9">
+     <div class="main-content" id="home">
+        <div class="heading-with-logo text-center">
+            <img src="img/logo2.jpg" alt="Logo" class="content-logo">
+            <h1>Popular Attraction in Mountain Province</h1>
+        </div>
+        <div class="tab-container text-center mb-3">
+            <button class="tab-button active" data-filter="recommended">Municipalties</button>
+            <button class="tab-button" data-filter="popular">Popular</button>
+            <button class="tab-button" data-filter="nearest">Nearest</button>
+            <button class="tab-button" data-filter="most-booked">Most Booked</button>
+        </div>
+        
+        <div class="card-container">
+            <!-- Recommended -->
+             
+            <div class="card" data-category="recommended" >
+                <div class="card-image">
+                   <a href="abatan.html"><img src="Images/logo/Seal_of_Bauko,_Mountain_Province.png" alt="Description of the image" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Bauko Mountain Province</h3>
+                        <p>Bauko is a 4th class municipality in the province of Mountain Province, Philippines.
+                         Describes the people of Bauko that belong to a group of mountain peoples known as "Igorot", of which they specifically belong to the subgroup of "Kankanay or Lepanto-Igorot." 
+                         Bauko is a municipality of Mountain Province. The paper describes the physical and socioeconomic conditions as basically rugged mountainous terrain and farming as the main livelihood.</p>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="card" data-category="popular">
+                <div class="card-image">
+                    <a href="sabangan.html" style="text-decoration: none; color: inherit;">  <img src="Images/logo/sabangan.jpeg" alt="Description about Tadian" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Sabangan Mountain Province</h3>
+                        <p>Sabangan is a 5th class municipality known for its scenic landscapes, traditional rice terraces, and strong indigenous culture. 
+                            Its economy is primarily agricultural, with rice, corn, and vegetables being key products. The town is increasingly drawing
+                             attention from tourists interested in hiking, cultural experiences, and the beauty of the Cordillera region.</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Popular -->
+            <div class="card" data-category="popular">
+                <div class="card-image">
+                <a href="tadian.html" style="text-decoration: none; color: inherit;">  <img src="Images/logo/tadian.png" alt="Description about Tadian" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                   
+                        <h3>Tadian Mountain Province</h3>
+                        <p>Tadian is a 4th class municipality in the province of Mountain Province, Philippines. 
+                            According to the 2020 census, it has a population of 19,341 people.The town's economy is centered on agriculture, 
+                            with rice, corn, vegetables, and livestock being key products. Tadian is home to picturesque rice terraces and natural attractions, 
+                            offering opportunities for hiking and experiencing local traditions. While it is less commercialized than other Cordillera towns, 
+                            Tadian has potential for eco-tourism, with growing interest in its cultural heritage and natural beauty.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="card" data-category="popular">
+                <div class="card-image">
+                    <a href="paracelis.html" style="text-decoration: none; color: inherit;"> <img src="Images/logo/paracelis.jpeg" alt="Description about Tadian" style="display: block; width: 250px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Paracelis Mountain Province</h3>
+                        <p>Paracelis, officially the Municipality of Paracelis is a 2nd class municipality in the province of Mountain Province, Philippines.
+                            It is celebrated for its agricultural abundance and cultural diversity. Known as the "rice granary" of the province, it produces rice, corn, bananas, and other crops.
+                            Paracelis has numerous zigzag roads in most parts, including access roads that connect the municipality to other border towns. 
+                            On both sides of its zigzag roads, travelers can view the vast cornfield plantations alongside.</p>
+                    </a>
+                </div>
+            </div>
+        
+            <!-- Nearest -->
+            <div class="card" data-category="nearest">
+                <div class="card-image">
+                    <a href="sagada.html" style="text-decoration: none; color: inherit;"><img src="Images/logo/sagada.jpeg" alt="Description about Sagada" style="display: block; width: 220px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Sagada Mountain Province</h3>
+                        <p>Sagada, is a 5th class municipality in the province of Mountain Province, Philippines. According to the 2020 census, it has a population of 11,510 people.
+                         The town's economy relies on agriculture, with rice, vegetables, and root crops being key products, as well as income from tourism and local handicrafts. 
+                         Popular activities include trekking, exploring both caves and waterfalls, spelunking, bonfires, picnics, rappelling, visiting historical sites, nature hikes, 
+                         and participating in tribal celebrations</p>
+                    </a>
+                </div>
+            </div>
+            <div class="card" data-category="nearest">
+                <div class="card-image">
+                <a href="besao.html" style="text-decoration: none; color: inherit;"> <img src="Images/logo/besao.jpeg" alt="Description about Sagada" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                   
+                        <h3>Besao Mountain Province</h3>
+                        <p>Besao, officially the Municipality of Besao is a 5th class municipality in the province of Mountain Province, Philippines.
+                         According to the 2020 census, it has a population of 6,873 people.is a serene municipality known for its cultural heritage, 
+                         natural beauty, and historical significance. Home to the Kankanaey people, it preserves traditions such as rituals, weaving, and the use of the dap-ay for community gatherings. </p>
+                    </a>
+                </div>
+            </div>
+            <div class="card" data-category="nearest">
+                <div class="card-image">
+                    <a href="barlig.html" style="text-decoration: none; color: inherit;"><img src="Images/logo/barlig.png" alt="Description about Sagada" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Barlig Mountain Province</h3>
+                        <p>Barlig is a 5th class municipality in the province of Mountain Province, Philippines. Its population as determined by the 2020 Census was 4,796.
+                         Locals call themselves Ifiallig which is a reference to someone born or having roots from villages.
+                         Known for the dormitories of the gods belief, referring to the mountains as sacred.
+                         The area boasts stunning rice terraces, pristine waterfalls, and lush forests rich in biodiversity</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Most Booked -->
+            <div class="card" data-category="most-booked">
+                <div class="card-image">
+                    <a href="bontoc.html" style="text-decoration: none; color: inherit;"><img src="Images/logo/bontoc.jpeg" alt="Description about Bontoc" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Bontoc Mountain Province</h3>
+                        <p>Bontoc is a 2nd-class municipality and the capital town of Mountain Province, located in the Cordillera region of the Philippines, with a population of 24,104 as of the 2020 census. 
+                        Bontoc is also celebrated for its cultural heritage, including traditional weaving, woodcraft, and the annual Lang-ay Festival, which showcases indigenous rituals and crafts.  The municipality's 
+                        economy is primarily based on agriculture, with rice terraces and vegetable farming playing a central role.It is accessible by road via the Halsema Highway, linking it to other major cities like </p>
+                    </a>
+                </div>
+            </div>
+            <div class="card" data-category="most-booked">
+                <div class="card-image">
+                    <a href="natonin.html" style="text-decoration: none; color: inherit;"><img src="Images/logo/natonin logo.png" alt="Description about Bontoc" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                        <h3>Natonin Mountain Province</h3>
+                        <p> Natonin a 4th class municipalityIt is known for its mountainous terrain, cool climate, and rich cultural heritage, particularly among the indigenous Igorot people, such as the Bontoc tribe. The town's economy is primarily 
+                            based on agriculture, with rice, corn, and vegetables being key products, alongside some mining activities. Natonin's natural beauty, including scenic mountains and rice terraces, attracts tourists, 
+                            especially those interested in ecotourism and hiking.</p>
+                </div>
+            </div>
+            <div class="card" data-category="most-booked">
+                <div class="card-image">
+                    <a href="sadanga.html" style="text-decoration: none; color: inherit;"> <img src="Images/logo/sadanga.png" alt="Description about Bontoc" style="display: block; width: 200px; height: 200px; object-fit: cover;"></a>
+                </div>
+                <div class="card-content">
+                    
+                        <h3>Sadanga Mountain Province</h3>
+                        <p>Sadanga is a 5th-class municipality in Mountain Province, Philippines, with a population of 8,427 as of the 2020 census.The community is known for its unique traditions, including back-strap loom weaving,
+                         epic chants for rice farming, rice terrace cultivation, and indigenous rituals like the pumatay ceremony. Sadanga's rich cultural heritage also includes distinct vernacular house architecture. </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Add Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js.js"></script>   
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abatan - Tourist Spots</title>
+    <link rel="stylesheet" href="abatan.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="img/logo2.jpg" alt="Logo" class="logo-image">
+            <div class="logo-text">EchoScapes Mountain Province</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    
+    </nav>
+<!-- carousel -->
+<div id="touristCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Images/sabangan/dagiwdiw rice terraces.jpg" class="d-block w-100" alt="Spot 1">
+            <div class="carousel-caption d-none d-md-block">
+               
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/sabangan/kapangdan.jpg" class="d-block w-100" alt="Spot 2">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/sabangan/mt kalawitan.jpg" class="d-block w-100" alt="Spot 3">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/sabangan/paradise falls.jpg" class="d-block w-100" alt="Spot 4">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        
+    <button class="carousel-control-prev" type="button" data-bs-target="#touristCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#touristCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+    <!-- card section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">  Sabangan Tourist Spots</h2>
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/sabangan/dagiwdiw rice terraces.jpg" class="card-img-top" alt="Mount Bandilaan">
+                <div class="card-body">
+                    <h5 class="card-title">Dagiwdiw Rice Terraces</h5>
+                    <p class="card-text">Dagiwdiw Rice Terraces sit on the foot of Mt Kalawitan, one of the highest peaks in the Philippines.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Dagiwdiw Rice Terraces"
+                        data-description=" &quot;The Dagiwdiw Rice Terraces, located in Sabangan, Mountain Province, are a breathtaking example of the ingenuity and resilience of the indigenous people of the Cordillera region. These terraces, carved into the mountainside, showcase a centuries-old tradition of sustainable farming and harmonious coexistence with nature. Surrounded by lush greenery and towering peaks, the terraces offer a stunning landscape that captivates visitors with their intricate design and cultural significance. The Dagiwdiw Rice Terraces also serve as a vital source of livelihood for the local community, producing rice that sustains generations. As a less-crowded yet equally magnificent counterpart to the more famous Banaue terraces, Dagiwdiw provides a tranquil and authentic glimpse into the agricultural heritage and natural beauty of Mountain Province."
+                        data-image="Images/sabangan/dagiwdiw rice terraces.jpg">View Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/sabangan/kapangdan.jpg" class="card-img-top" alt="Iyaman Farm">
+                <div class="card-body">
+                    <h5 class="card-title">Kapangdan</h5>
+                    <p class="card-text">Kapangdan river is known for its clean fresh waters and the  traversing through mountains and rice terraces which provide natural swimming and camp sites.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Kapangdan"
+                        data-description=" &quot;Kapangdan, located in Sabangan, Mountain Province, is a picturesque highland destination known for its serene environment and breathtaking mountain views. Situated amidst the lush landscapes of the Cordillera region, it offers a tranquil escape for those seeking to immerse themselves in nature. Kapangdan is a favored spot for hiking, with trails that lead visitors through verdant forests and rolling hills, ultimately rewarding them with panoramic views of Sabangan and its surrounding peaks. The area's cool climate and peaceful atmosphere make it an ideal retreat for relaxation and reflection. Kapangdan embodies the raw beauty and charm of Mountain Province, making it a must-visit for nature lovers and adventurers."
+                        data-image="Images/sabangan/kapangdan.jpg">View Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/sabangan/mt kalawitan.jpg" class="card-img-top" alt="Pangayapang Falls">
+                <div class="card-body">
+                    <h5 class="card-title">Mt. Kalawitan</h5>
+                    <p class="card-text">Mt. Kalawitan (also called Calauit, Calawitan) is an undiscovered gem at the heart of the Cordilleras. It rises to a spectacular elevation of 2714 MASL, making it, in fact, the tenth highest mountain in the Philippines</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Mt. Kalawitan"
+                        data-description=" &quot;Mount Kalawitan, located in Sabangan, Mountain Province, is one of the tallest peaks in the Cordillera region, standing at an impressive elevation of approximately 2,714 meters above sea level. Known for its challenging yet rewarding trek, the mountain attracts hikers and adventurers eager to experience its lush pine forests, diverse flora and fauna, and breathtaking summit views. Along the trails, visitors can encounter serene mossy forests and enjoy the crisp mountain air, making the journey as memorable as the destination. From the summit, hikers are rewarded with panoramic vistas of surrounding mountain ranges and valleys, showcasing the unparalleled beauty of the Cordilleras. With its natural charm and sense of adventure, Mount Kalawitan is a must-visit destination for nature enthusiasts exploring Mountain Province."
+                        data-image="Images/sabangan/mt kalawitan.jpg">View Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/sabangan/paradise falls.jpg" class="card-img-top" alt="Mount Polis">
+                <div class="card-body">
+                    <h5 class="card-title">Paradise Falls</h5>
+                    <p class="card-text">Paradise Falls consists of three layers with the third being the highest. It has a small and shallow pool where you can have an invigorating swim.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Paradise Falls"
+                        data-description=" &quot;Paradise Falls, located in Sabangan, Mountain Province, is a hidden gem known for its serene and unspoiled natural beauty. Surrounded by dense greenery and rugged mountain landscapes, the falls offer a peaceful retreat for nature lovers and adventure seekers. Its cascading waters flow into a clear, cool pool, making it a perfect spot for relaxation and a refreshing dip. The journey to Paradise Falls involves scenic trails that immerse visitors in the pristine environment of the Cordillera region, adding to the allure of the destination. As a tranquil escape, Paradise Falls is a must-visit for those seeking a blend of adventure and serenity in Sabangan."
+                        data-image="Images/sabangan/paradise falls.jpg">View Details</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="project-image" src="" alt="Project Image" class="img-fluid mb-3">
+                    <h5 class="modal-title" id="projectModalLabel">Project Proposal</h5>
+                    <p id="project-description">Description will go here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- JS for Modal -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Select all buttons with the class "view-details"
+        const viewDetailsButtons = document.querySelectorAll('.view-details');
+        
+        // Select the modal elements
+        const modalTitle = document.getElementById('projectModalLabel');
+        const modalDescription = document.getElementById('project-description');
+        const modalImage = document.getElementById('project-image');
+
+        // Add a click event listener to each button
+        viewDetailsButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Get data attributes from the clicked button
+                const title = button.getAttribute('data-title');
+                const description = button.getAttribute('data-description');
+                const image = button.getAttribute('data-image');
+                
+                // Update the modal content
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
+                modalImage.src = image;
+                modalImage.alt = title;
+            });
+        });
+    });
+</script>
+</body>
+</html>

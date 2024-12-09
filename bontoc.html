@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abatan - Tourist Spots</title>
+    <link rel="stylesheet" href="abatan.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="img/logo2.jpg" alt="Logo" class="logo-image">
+            <div class="logo-text">EchoScapes Mountain Province</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    
+    </nav>
+<!-- carousel -->
+<div id="touristCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#touristCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Images/Bontoc/Mt. Kupapey and Fato.jpg" class="d-block w-100" alt="Spot 1">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/chico river.jpg" class="d-block w-100" alt="Spot 2">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/humuyo falls.jpg" class="d-block w-100" alt="Spot 3">
+            <div class="carousel-caption d-none d-md-block">
+               
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/mainit hot spring.jpg" class="d-block w-100" alt="Spot 4">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/maligcong.jpg" class="d-block w-100" alt="Spot 5">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/bayyo.jpg" class="d-block w-100" alt="Spot 6">
+            <div class="carousel-caption d-none d-md-block">
+               
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/Museum.jpg" class="d-block w-100" alt="Spot 7">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Bontoc/pusong lake.jpg" class="d-block w-100" alt="Spot 8">
+            <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#touristCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#touristCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- card section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4"> Bontoc Tourist Spots</h2>
+    <div class="row g-4">
+         <!-- Card 1 -->
+         <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/Mt Fato.jpg" class="card-img-top" alt="Pengsaan Falls">
+                <div class="card-body">
+                    <h5 class="card-title">Mt. Kupapey and Fato</h5>
+                    <p class="card-text">Mt. Fato is known for its countless pine trees, but the most prominent landmark in the hike is the large rock at the summit.
+                        Mt. Kupapey -The name of the mountain means “butterfly”, the trail  is characterized by a straightforward ascent.</p>
+                        <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Mt. Kupapey and Fato"
+                        data-description=" &quot;Mount Kupapey and Fato, located in Bontoc, Mountain Province, are notable peaks in the Cordillera mountain range, known for their rugged terrain and breathtaking vistas. Mount Kupapey is particularly famous for its panoramic views, including a stunning bird’s-eye view of the famous rice terraces of Bontoc, which have been cultivated for generations by the local Igorot communities. Fato, located nearby, is also a popular destination for hikers due to its challenging trails and equally spectacular views. The two mountains provide visitors with a chance to experience the region’s natural beauty, rich biodiversity, and cultural heritage. They are favored by trekkers and nature enthusiasts who enjoy exploring the highland landscapes of the Mountain Province."
+                        data-image="Images/Bontoc/Mt Fato.jpg">View Details</button> 
+                    </div>
+                </div>
+            </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/chico river.jpg" class="card-img-top" alt="Iyaman Farm">
+                <div class="card-body">
+                    <h5 class="card-title">Chico River</h5>
+                    <p class="card-text">Amazing views with lush greens along the river banks. It was good timing it because rainy season was about to end. We had a few stops along the way just to see the views</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Chico River"
+                        data-description=" &quot;The Chico River, flowing through Bontoc, Mountain Province, is one of the most significant rivers in the Cordillera region. Stretching over 200 kilometers, it is a vital water source for local communities and plays a central role in the agricultural activities of the area, particularly in irrigation for rice terraces. The river is known for its scenic beauty, with its clear, flowing waters cutting through lush valleys and towering mountains. It also holds cultural significance, as the Chico River is part of the traditional land of the indigenous Igorot people, who have lived along its banks for centuries. The river’s natural beauty, combined with its importance to the local economy and culture, makes it a prominent feature of Bontoc and the wider Mountain Province."
+                        data-image="Images/Bontoc/chico river.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/humuyo falls.jpg" class="card-img-top" alt="Pangayapang Falls">
+                <div class="card-body">
+                    <h5 class="card-title">Humuyo Falls</h5>
+                    <p class="card-text">Humuyyo falls cascade in two layers. Collectively, it measures more than 40 meters high, making it the one of the highest falls in Bontoc.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Humuyo Falls"
+                        data-description=" &quot;Humuyo Falls, located in Bontoc, Mountain Province, is a stunning natural attraction that captivates visitors with its beauty and tranquility. The falls cascade down from a height, creating a picturesque sight as the water tumbles over rocks into a serene pool below. Surrounded by lush greenery and the rugged terrain of the Cordillera mountains, Humuyo Falls offers a peaceful retreat for nature lovers and adventure seekers. Accessible through a scenic hike, the falls provide an opportunity to experience the region's rich biodiversity and enjoy the cool, refreshing atmosphere. Humuyo Falls is a hidden gem in Bontoc, making it a must-visit for those exploring the natural wonders of Mountain Province."
+                        data-image="Images/Bontoc/humuyo falls.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/mainit hot spring.jpg" class="card-img-top" alt="Mount Polis">
+                <div class="card-body">
+                    <h5 class="card-title">Mainit Hot Spring</h5>
+                    <p class="card-text">Mainit is known for its mineral springs (sulphur) that provide invigorating baths after a hard day’s work in one’s farm.  </p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Mainit Hot Spring"
+                        data-description=" &quot;Mainit Hot Spring, located in Bontoc, Mountain Province, is a popular natural hot spring known for its therapeutic properties and scenic setting. The spring is situated in a lush, mountainous area, where visitors can soak in the warm, mineral-rich waters, believed to have healing benefits for various ailments. The water flows from geothermal sources, creating small pools that are perfect for relaxation amidst the serene surroundings. The hot spring offers a tranquil escape from the hustle and bustle, allowing visitors to enjoy the soothing warmth while surrounded by the beauty of the Cordillera mountains. Mainit Hot Spring is not only a favorite spot for those seeking relaxation but also a great destination for nature lovers exploring the hidden gems of Mountain Province."
+                        data-image="Images/Bontoc/mainit hot spring.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/maligcong.jpg" class="card-img-top" alt="Laayan Burial Cave">
+                <div class="card-body">
+                    <h5 class="card-title">Maligcong Rice Terraces</h5>
+                    <p class="card-text">The majestic Maligcong Rice Terraces in Bontoc, Mountain Province is eyeing the distinguished honor of becoming a certified National Cultural Treasure, the same status held by the world-renowned Ifugao Rice Terraces.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Maligcong Rice Terraces"
+                        data-description=" &quot;The Maligcong Rice Terraces, located in Bontoc, Mountain Province, are a breathtaking example of the region’s rich agricultural heritage and natural beauty. Carved into the mountainsides by the indigenous Igorot people over centuries, these terraces are known for their stunning landscape and traditional farming techniques that have been passed down through generations. The terraces are not only a testament to the ingenuity of the local communities but also an important part of the cultural and ecological fabric of the area. Surrounded by lush greenery and the majestic peaks of the Cordillera mountains, the Maligcong Rice Terraces offer visitors a picturesque view of rural life and a glimpse into the agricultural practices that sustain the region. The terraces are a UNESCO World Heritage Site nominee and an ideal destination for those seeking to explore the cultural and natural wonders of Mountain Province."
+                        data-image="Images/Bontoc/maligcong.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/bayyo.jpg" class="card-img-top" alt="Mount Bandilaan">
+                <div class="card-body">
+                    <h5 class="card-title">Bayyo Rice Terraces</h5>
+                    <p class="card-text">Bayyo Rice Terraces is located along the Bontoc-Banaue Road. You can view this stunning vista along the road. It is around 30-40 minutes of jeepney ride from Bontoc Poblacion.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Maligcong Rice Terraces"
+                        data-description=" &quot;The Bayyo Rice Terraces, located in Bontoc, Mountain Province, are a stunning example of the region's ancient agricultural practices and natural beauty. These terraces, intricately carved into the mountainsides, have been cultivated by the local Igorot communities for centuries, utilizing traditional farming techniques that have sustained the area for generations. The terraces are known for their unique layout, featuring vibrant green fields during the planting season and golden hues during harvest time. Set against the backdrop of the Cordillera mountains, the Bayyo Rice Terraces offer a picturesque view of the region’s agricultural heritage. They serve as a testament to the ingenuity and resilience of the local people and remain an important part of the cultural landscape in Mountain Province."
+                        data-image="Images/Bontoc/bayyo.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+        <!-- Card 7 -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/Museum.jpg" class="card-img-top" alt="Pengsaan Falls">
+                <div class="card-body">
+                    <h5 class="card-title">Bontoc Museum</h5>
+                    <p class="card-text">The museum, designed to resemble an Igorot house, was established by Mother Basil Gekiere and is run by Belgian ICM 
+                        missionaries to preserve authentic artifacts and photos reflecting the culture of the mountain tribes.  
+                        </p>
+                        <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Bontoc Museum"
+                        data-description=" &quot;The Bontoc Museum, located in the heart of Bontoc, Mountain Province, is a cultural and historical hub that showcases the rich heritage of the local Igorot people and the surrounding region. The museum is home to a vast collection of artifacts, traditional clothing, tools, and objects that highlight the daily life, customs, and rituals of the indigenous communities of the Cordillera mountains. Visitors can learn about the history of the region, including the agricultural practices, spiritual beliefs, and crafts of the Igorot people. The museum also features exhibits on the region’s colonial history, as well as its transformation over the years. With its informative displays and captivating stories, the Bontoc Museum serves as an important resource for preserving and sharing the cultural heritage of Mountain Province."
+                        data-image="Images/Bontoc/Museum.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+         <!-- Card 8 -->
+         <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="Images/Bontoc/pusong lake.jpg" class="card-img-top" alt="Pengsaan Falls">
+                <div class="card-body">
+                    <h5 class="card-title">Pusong Lake</h5>
+                    <p class="card-text">Pusong Lake (Forest Lake) , Snaking down thru thick forest was a mountain lake called Pusong.</p>
+                    <button class="btn btn-primary view-details" data-bs-toggle="modal"
+                        data-bs-target="#projectModal" data-title="Pusong Lake"
+                        data-description=" &quot;Pusong Lake, located in Bontoc, Mountain Province, is a serene and scenic highland lake nestled amidst the rugged terrain of the Cordillera mountains. Known for its calm waters and picturesque surroundings, the lake is a hidden gem that attracts nature lovers and adventurers seeking a peaceful retreat. It holds cultural significance to the local Igorot communities, who consider the lake a sacred site. The area around Pusong Lake is rich in biodiversity, with lush vegetation and diverse wildlife that add to the charm of the location. Accessible by a scenic trek, Pusong Lake offers a tranquil escape and a chance to experience the natural beauty and cultural heritage of Mountain Province."
+                        data-image="Images/Bontoc/pusong lake.jpg">View Details</button> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="project-image" src="" alt="Project Image" class="img-fluid mb-3">
+                    <h5 class="modal-title" id="projectModalLabel">Project Proposal</h5>
+                    <p id="project-description">Description will go here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- JS for Modal -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Select all buttons with the class "view-details"
+        const viewDetailsButtons = document.querySelectorAll('.view-details');
+        
+        // Select the modal elements
+        const modalTitle = document.getElementById('projectModalLabel');
+        const modalDescription = document.getElementById('project-description');
+        const modalImage = document.getElementById('project-image');
+
+        // Add a click event listener to each button
+        viewDetailsButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Get data attributes from the clicked button
+                const title = button.getAttribute('data-title');
+                const description = button.getAttribute('data-description');
+                const image = button.getAttribute('data-image');
+                
+                // Update the modal content
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
+                modalImage.src = image;
+                modalImage.alt = title;
+            });
+        });
+    });
+</script>
+        
+</body>
+</html>
